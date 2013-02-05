@@ -9,6 +9,13 @@ function fbib_base_strongarm() {
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'addi_wsdl_url';
+  $strongarm->value = 'http://moreinfo.addi.dk/2.1/';
+  $export['addi_wsdl_url'] = $strongarm;
+
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'eu_cookie_compliance_da';
   $strongarm->value = array(
     'popup_enabled' => 1,
