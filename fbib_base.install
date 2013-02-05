@@ -8,5 +8,5 @@
  * Enable fbib_panels_overwrites.
  */
 function fbib_base_update_6000() {
-  module_enable(array('fbib_panels_overwrites'));
+  drupal_install_modules(array('fbib_panels_overwrites'));
 }
