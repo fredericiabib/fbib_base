@@ -1,4 +1,9 @@
-name = Fbib Base
-description = Fredericia Bibliotek custom base module
+name = "FBIB base"
+description = "Fredericia Bibliotek ding overwrites"
 core = "6.x"
-dependencies[] = fbib_panels_overwrites
+package = "Features"
+dependencies[] = "eu_cookie_compliance"
+dependencies[] = "fbib_panels_overwrites"
+dependencies[] = "strongarm"
+features[ctools][] = "strongarm:strongarm:1"
+features[variable][] = "eu_cookie_compliance_da"

@@ -1,5 +1,3 @@
 <?php
-/**
- * @file
- * fbib_base.module/
- */
+
+include_once('fbib_base.features.inc');

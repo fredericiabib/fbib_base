@@ -10,3 +10,10 @@
 function fbib_base_update_6000() {
   drupal_install_modules(array('fbib_panels_overwrites'));
 }
+
+/**
+ * Enable eu-cookie-compliance module.
+ */
+function fbib_base_update_6001() {
+  drupal_install_modules(array('eu-cookie-compliance'));
+}
