@@ -1,0 +1,4 @@
+name = Fbib Base
+description = Fredericia Bibliotek custom base module
+core = "6.x"
+dependencies[] = fbib_panels_overwrites
